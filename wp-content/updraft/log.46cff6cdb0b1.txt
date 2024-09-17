@@ -1,0 +1,230 @@
+0000.000 (0) Opened log file at time: Tue, 17 Sep 2024 14:01:06 +0000 on http://export-smart.local
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.4 WP: 6.6.2 PHP: 8.1.29 (cgi-fcgi, Windows NT DESKTOP-LEKAA9R 10.0 build 22631 (Windows 11) AMD64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: en_US Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 4.8M | 6M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.007 (0) Free space on disk containing Updraft's temporary directory: 39408 MB
+0000.011 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB: 1 (schedule: daily)
+0000.019 (0) Semaphore (fd, wp_options) being initialised
+0000.032 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.054 (0) Set semaphore last lock (fd) time to 2024-09-17 14:01:06
+0000.057 (0) Semaphore lock (fd) complete
+0000.065 (0) Backup run: resumption=0, nonce=46cff6cdb0b1, file_nonce=46cff6cdb0b1 begun at=1726581666 (0s ago), job type=backup
+0000.071 (0) Scheduling a resumption (1) after 300 seconds (1726581966) in case this run gets aborted
+0000.098 (0) Checking if we have a zip executable available
+0000.104 (0) Creation of backups of directories: beginning
+0000.115 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.474 (0) Total entities for the zip file: 209 directories, 1220 files (0 skipped as non-modified), 24.7 MB
+0000.528 (0) Zip: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.580 (0) Zip: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.635 (0) Zip: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.691 (0) Zip: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.746 (0) Zip: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.799 (0) Zip: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.859 (0) Zip: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.917 (0) Zip: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.974 (0) Zip: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.028 (0) Zip: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0001.037 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (23.7 MB, 1220 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0002.802 (0) Zip: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-plugins.zip.tmp: 1100 files added (on-disk size: 7140.6 KB)
+0002.859 (0) Zip: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-plugins.zip.tmp: 1200 files added (on-disk size: 7140.6 KB)
+0003.116 (0) Creating zip file manifest (backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-plugins.zip.list-temp.tmp)
+0003.126 (0) Successfully created zip file manifest (size: 107104)
+0003.208 (0) Created plugins zip (0) - 7482.5 KB in 3.1 s (2425.2 KB/s) (sha1: adb1fd0d2c0ed5815ed1dd5dbaa08678326b0652, sha256: fb21d092132ecb4e64ec2483fd2606eb317f725be97cf8f2a0baf42f7010af91)
+0003.228 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0003.233 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-f8e75f728f8ab70a0b774830757ffc95)
+0005.540 (0) Google Drive: quota usage: used=7894.2 MB, total=15360 MB, available=7465.8 MB
+0005.544 (0) Google Drive: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-plugins.zip: Attempting to upload to Google Drive (into folder id: 154XS9qM7B7f0Jk4tg_03Tn3n6r3cBuVT)
+0008.215 (0) Googledrive chunked upload: 13.7 % uploaded (1048576)
+0010.045 (0) Googledrive chunked upload: 27.4 % uploaded (2097152 - increasing chunk size to 2048 KB - memory usage: 5.6 / 8)
+0013.372 (0) Googledrive chunked upload: 54.7 % uploaded (4194304)
+0016.684 (0) Googledrive chunked upload: 82.1 % uploaded (6291456)
+0021.579 (0) Googledrive chunked upload: 100 % uploaded (6291456)
+0021.588 (0) Google Drive: OK: Archive backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-plugins.zip uploaded in 16.04 seconds
+0021.590 (0) Recording as successfully uploaded: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-plugins.zip
+0021.598 (0) Deleting local file: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-plugins.zip: OK
+0021.621 (0) Beginning creation of dump of themes (split every: 400 MB)
+0022.081 (0) Total entities for the zip file: 248 directories, 1547 files (0 skipped as non-modified), 61.9 MB
+0022.166 (0) Zip: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0022.234 (0) Zip: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0022.296 (0) Zip: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0022.356 (0) Zip: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0022.414 (0) Zip: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0022.467 (0) Zip: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0022.522 (0) Zip: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0022.576 (0) Zip: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0022.634 (0) Zip: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0022.667 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (26.8 MB, 1547 files batched, 942 (942) added so far); re-opening (prior size: 0 KB)
+0024.429 (0) A useful amount of data was added after this amount of zip processing: 3.3 s (normalised: 3.1 s, rate: 8373.8 KB/s)
+0024.434 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.2731559276581, normalised_time=3.0571502296573, max_time=24.431273937225, data points known=1, old_max_bytes=26214400, new_max_bytes=125695724)
+0024.483 (0) Zip: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-themes.zip.tmp: 1000 files added (on-disk size: 7726.4 KB)
+0024.534 (0) Zip: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-themes.zip.tmp: 1100 files added (on-disk size: 7726.4 KB)
+0024.623 (0) Zip: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-themes.zip.tmp: 1200 files added (on-disk size: 7726.4 KB)
+0024.675 (0) Zip: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-themes.zip.tmp: 1300 files added (on-disk size: 7726.4 KB)
+0024.725 (0) Zip: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-themes.zip.tmp: 1400 files added (on-disk size: 7726.4 KB)
+0024.775 (0) Zip: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-themes.zip.tmp: 1500 files added (on-disk size: 7726.4 KB)
+0028.144 (0) Creating zip file manifest (backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-themes.zip.list-temp.tmp)
+0028.156 (0) Successfully created zip file manifest (size: 121382)
+0028.328 (0) Created themes zip (0) - 17507.1 KB in 6.7 s (2613.5 KB/s) (sha1: 3f1df1856c4636e039a57e0dfd6346e8510e4f81, sha256: 985c1539c8ac6e35413dc2e95b5bf7ca20fe5e7aa3c123816a0202ceb8ed5cd8)
+0028.340 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0028.344 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-f8e75f728f8ab70a0b774830757ffc95)
+0029.069 (0) Google Drive: quota usage: used=7901.5 MB, total=15360 MB, available=7458.5 MB
+0029.073 (0) Google Drive: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-themes.zip: Attempting to upload to Google Drive (into folder id: 154XS9qM7B7f0Jk4tg_03Tn3n6r3cBuVT)
+0031.607 (0) Googledrive chunked upload: 5.8 % uploaded (1048576)
+0033.415 (0) Googledrive chunked upload: 11.7 % uploaded (2097152 - increasing chunk size to 2048 KB - memory usage: 5.7 / 8)
+0036.757 (0) Googledrive chunked upload: 23.4 % uploaded (4194304)
+0040.120 (0) Googledrive chunked upload: 35.1 % uploaded (6291456)
+0043.439 (0) Googledrive chunked upload: 46.8 % uploaded (8388608)
+0046.710 (0) Googledrive chunked upload: 58.5 % uploaded (10485760)
+0050.008 (0) Googledrive chunked upload: 70.2 % uploaded (12582912)
+0053.352 (0) Googledrive chunked upload: 81.9 % uploaded (14680064)
+0056.682 (0) Googledrive chunked upload: 93.6 % uploaded (16777216)
+0060.482 (0) Googledrive chunked upload: 100 % uploaded (16777216)
+0060.491 (0) Google Drive: OK: Archive backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-themes.zip uploaded in 31.42 seconds
+0060.493 (0) Recording as successfully uploaded: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-themes.zip
+0060.505 (0) Deleting local file: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-themes.zip: OK
+0060.516 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0060.519 (0) Looking for candidates to backup in: C:\Users\Sofien\Local Sites\export-smart\app\public/wp-content/uploads
+0060.522 (0) finding files: 2024: adding to list (1)
+0060.526 (0) finding files: et_temp: adding to list (2)
+0060.536 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0060.546 (0) Total entities for the zip file: 3 directories, 0 files (0 skipped as non-modified), 0 MB
+0060.559 (0) Did not find any files in the zip: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-uploads.zip.tmp
+0060.578 (0) Created uploads zip (0) - 0.3 KB in 0 s (9.8 KB/s) (sha1: fcc41b9f50cf8d8946687e2a916905261d5e6306, sha256: a7de302fc1a92d7005ce5c37e81a8a4e5c6073946b259a0fdac1c9eaa931fd44)
+0060.583 (0) No backup of mu-plugins: excluded by user's options
+0060.589 (0) Beginning backup of other directories found in the content directory (index: 0)
+0060.592 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0060.594 (0) Looking for candidates to backup in: C:\Users\Sofien\Local Sites\export-smart\app\public/wp-content
+0060.597 (0) finding files: et-cache: adding to list (1)
+0060.599 (0) finding files: index.php: adding to list (2)
+0060.602 (0) finding files: plugins: skipping: this is the plugins directory
+0060.604 (0) finding files: themes: skipping: this is the themes directory
+0060.607 (0) finding files: updraft: skipping: this is the updraft directory
+0060.609 (0) finding files: upgrade: skipping: excluded by options
+0060.612 (0) finding files: upgrade-temp-backup: adding to list (3)
+0060.614 (0) finding files: uploads: skipping: this is the uploads directory
+0060.624 (0) Total entities for the zip file: 4 directories, 2 files (0 skipped as non-modified), 2.5 MB
+0060.747 (0) Creating zip file manifest (backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-others.zip.list-temp.tmp)
+0060.750 (0) Successfully created zip file manifest (size: 105)
+0060.775 (0) Created others zip (0) - 702.7 KB in 0.2 s (4552.9 KB/s) (sha1: 53b9ea85e011cc09b020045642da188417afc7f5, sha256: 7583dffd810d69264ae31003d03e52044992b2c0f880baa4d6b6d699f23e7ee5)
+0060.785 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0060.788 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-f8e75f728f8ab70a0b774830757ffc95)
+0061.360 (0) Google Drive: quota usage: used=7918.6 MB, total=15360 MB, available=7441.4 MB
+0061.363 (0) Google Drive: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-others.zip: Attempting to upload to Google Drive (into folder id: 154XS9qM7B7f0Jk4tg_03Tn3n6r3cBuVT)
+0066.030 (0) Googledrive chunked upload: 100 % uploaded
+0066.042 (0) Google Drive: OK: Archive backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-others.zip uploaded in 4.68 seconds
+0066.047 (0) Recording as successfully uploaded: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-others.zip
+0066.052 (0) Deleting local file: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-others.zip: OK
+0066.078 (0) Saving backup status to database (elements: 8)
+0066.084 (0) Beginning creation of database dump (WordPress DB)
+0066.088 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0066.162 (0) Table wp_options: Total expected rows (via COUNT): 247
+0066.166 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0066.234 (0) Table wp_options: Rows added in this batch (next record: 314): 243 (uncompressed bytes in this segment=1304993) in 0.09 seconds
+0066.251 (0) Table wp_options: finishing file(s) (2, 357 KB)
+0066.267 (0) Table wp_users: Total expected rows (via COUNT): 1
+0066.270 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0066.277 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1395) in 0.01 seconds
+0066.296 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0066.322 (0) Table wp_usermeta: Total expected rows (via COUNT): 17
+0066.327 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0066.332 (0) Table wp_usermeta: Rows added in this batch (next record: 17): 17 (uncompressed bytes in this segment=1614) in 0.01 seconds
+0066.347 (0) Table wp_usermeta: finishing file(s) (2, 0.9 KB)
+0066.366 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0066.376 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.02 seconds
+0066.392 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0066.404 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0066.406 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0066.412 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2141) in 0.01 seconds
+0066.424 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0066.441 (0) Table wp_links: Total expected rows (via COUNT): 0
+0066.447 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.01 seconds
+0066.925 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0066.940 (0) Table wp_postmeta: Total expected rows (via COUNT): 2
+0066.943 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0066.950 (0) Table wp_postmeta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=790) in 0.01 seconds
+0066.966 (0) Table wp_postmeta: finishing file(s) (2, 0.4 KB)
+0066.981 (0) Table wp_posts: Total expected rows (via COUNT): 6
+0066.984 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0066.988 (0) Table wp_posts: Rows added in this batch (next record: 7): 6 (uncompressed bytes in this segment=10591) in 0.01 seconds
+0067.004 (0) Table wp_posts: finishing file(s) (2, 3.1 KB)
+0067.015 (0) Table wp_term_relationships: Total expected rows (approximate): 1
+0067.021 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 1 (uncompressed bytes in this segment=702) in 0.01 seconds
+0067.035 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0067.050 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 1
+0067.054 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0067.060 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=926) in 0.01 seconds
+0067.075 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.4 KB)
+0067.092 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0067.098 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.01 seconds
+0067.113 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0067.124 (0) Table wp_terms: Total expected rows (via COUNT): 1
+0067.126 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0067.133 (0) Table wp_terms: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=736) in 0.01 seconds
+0067.145 (0) Table wp_terms: finishing file(s) (2, 0.4 KB)
+0067.149 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\Users\Sofien\Local Sites\export-smart\app\public/wp-content/updraft/backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-db.gz (line 1925, C:\Users\Sofien\Local Sites\export-smart\app\public\wp-content\plugins\updraftplus\backup.php)
+0067.156 (0) backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-db-table-wp_options.table.tmpr315.gz (1/12/fopen): adding to final database dump
+0067.173 (0) backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-db-table-wp_options.table.gz (2/12/fopen): adding to final database dump
+0067.179 (0) backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-db-table-wp_users.table.tmpr2.gz (3/12/fopen): adding to final database dump
+0067.185 (0) backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-db-table-wp_users.table.gz (4/12/fopen): adding to final database dump
+0067.189 (0) backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-db-table-wp_usermeta.table.tmpr18.gz (5/12/fopen): adding to final database dump
+0067.192 (0) backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-db-table-wp_usermeta.table.gz (6/12/fopen): adding to final database dump
+0067.195 (0) backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-db-table-wp_commentmeta.table.tmpr0.gz (7/12/fopen): adding to final database dump
+0067.199 (0) backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-db-table-wp_commentmeta.table.gz (8/12/fopen): adding to final database dump
+0067.203 (0) backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-db-table-wp_comments.table.tmpr2.gz (9/12/fopen): adding to final database dump
+0067.207 (0) backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-db-table-wp_comments.table.gz (10/12/fopen): adding to final database dump
+0067.210 (0) backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-db-table-wp_links.table.tmpr0.gz (11/12/fopen): adding to final database dump
+0067.214 (0) backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-db-table-wp_links.table.gz (12/12/fopen): adding to final database dump
+0067.217 (0) backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-db-table-wp_postmeta.table.tmpr3.gz (13/12/fopen): adding to final database dump
+0067.221 (0) backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-db-table-wp_postmeta.table.gz (14/12/fopen): adding to final database dump
+0067.226 (0) backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-db-table-wp_posts.table.tmpr8.gz (15/12/fopen): adding to final database dump
+0067.232 (0) backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-db-table-wp_posts.table.gz (16/12/fopen): adding to final database dump
+0067.239 (0) backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-db-table-wp_term_relationships.table.tmpr100001.gz (17/12/fopen): adding to final database dump
+0067.243 (0) backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-db-table-wp_term_relationships.table.gz (18/12/fopen): adding to final database dump
+0067.246 (0) backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-db-table-wp_term_taxonomy.table.tmpr2.gz (19/12/fopen): adding to final database dump
+0067.251 (0) backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-db-table-wp_term_taxonomy.table.gz (20/12/fopen): adding to final database dump
+0067.255 (0) backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-db-table-wp_termmeta.table.tmpr0.gz (21/12/fopen): adding to final database dump
+0067.259 (0) backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-db-table-wp_termmeta.table.gz (22/12/fopen): adding to final database dump
+0067.267 (0) backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-db-table-wp_terms.table.tmpr2.gz (23/12/fopen): adding to final database dump
+0067.272 (0) backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-db-table-wp_terms.table.gz (24/12/fopen): adding to final database dump
+0067.294 (0) backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-db.gz: finished writing out complete database file (365.5 KB)
+0067.320 (0) Total database tables backed up: 12 (backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-db.gz, size: 374423, sha1: 16ddae30c6cf21a830da1dff3812deb960c29719, sha256: f550af5004f12b5e3ce8219f3de0ad9e01cac7c9be4487b5c1e982ff21fef663)
+0067.334 (0) backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-plugins.zip: plugins: This file has already been successfully uploaded
+0067.337 (0) backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-themes.zip: themes: This file has already been successfully uploaded
+0067.340 (0) backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0067.342 (0) backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-others.zip: others: This file has already been successfully uploaded
+0067.348 (0) backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-db.gz: db: This file has not yet been successfully uploaded: will queue
+0067.352 (0) Saving backup history. Total backup size: 25.4 MB
+0067.358 (0) Requesting upload of the files that have not yet been successfully uploaded (2)
+0067.368 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0067.371 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-f8e75f728f8ab70a0b774830757ffc95)
+0068.361 (0) Google Drive: quota usage: used=7919.3 MB, total=15360 MB, available=7440.7 MB
+0068.364 (0) Google Drive: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-uploads.zip: Attempting to upload to Google Drive (into folder id: 154XS9qM7B7f0Jk4tg_03Tn3n6r3cBuVT)
+0071.204 (0) Googledrive chunked upload: 100 % uploaded
+0071.213 (0) Google Drive: OK: Archive backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-uploads.zip uploaded in 2.85 seconds
+0071.216 (0) Recording as successfully uploaded: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-uploads.zip
+0071.222 (0) Deleting local file: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-uploads.zip: OK
+0071.769 (0) Google Drive: quota usage: used=7919.3 MB, total=15360 MB, available=7440.7 MB
+0071.772 (0) Google Drive: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-db.gz: Attempting to upload to Google Drive (into folder id: 154XS9qM7B7f0Jk4tg_03Tn3n6r3cBuVT)
+0075.057 (0) Googledrive chunked upload: 100 % uploaded
+0075.066 (0) Google Drive: OK: Archive backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-db.gz uploaded in 3.29 seconds
+0075.069 (0) Recording as successfully uploaded: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-db.gz
+0075.075 (0) Deleting local file: backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-db.gz: OK
+0075.081 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+0075.084 (0) Number of backup sets in history: 1; groups (db): 1
+0075.086 (0) Examining (for databases) backup set with group_id=0, nonce=46cff6cdb0b1, datestamp=1726581666 (Sep 17 2024 14:01:06)
+0075.089 (0) This backup set is the backup set just made, so will not be deleted.
+0075.089 (0) Number of backup sets in history: 1; groups (files): 1
+0075.092 (0) Examining (for files) backup set with nonce=46cff6cdb0b1, datestamp=1726581666 (Sep 17 2024 14:01:06)
+0075.092 (0) This backup set is the backup set just made, so will not be deleted.
+0075.094 (0) This backup set is the backup set just made, so will not be deleted.
+0075.095 (0) This backup set is the backup set just made, so will not be deleted.
+0075.095 (0) This backup set is the backup set just made, so will not be deleted.
+0075.095 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0075.097 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0075.103 (0) Resume backup (46cff6cdb0b1, 0): finish run
+0075.113 (0) Decremented the semaphore (fd) by 1
+0075.118 (0) Semaphore (fd) unlocked
+0075.127 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0075.136 (0) Deleting zip manifest (backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-plugins.zip.list.tmp)
+0075.139 (0) Deleting zip manifest (backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-themes.zip.list.tmp)
+0075.142 (0) Deleting zip manifest (backup_2024-09-17-1401_Export_Smart_46cff6cdb0b1-others.zip.list.tmp)
+0075.144 (0) No email will/can be sent - the user has not configured an email address.
+0075.147 (0) The backup succeeded and is now complete
