@@ -24,35 +24,5 @@ p
     text-align: justify;
 }
 
-h1
-{
-    margin-bottom: 0;
-    padding-bottom: 0;
-    text-align: center;
-    font-weight: 300;
-    font-family: 'Work Sans', Helvetica, Arial, Lucida, sans-serif !important;
-    font-size: 50px !important;
-    color: #1d1d1d;
-    text-transform: inherit;
-    position: relative;
-}
-
-h2
-{
-    color: #2b3a51 !important;
-    font-family: 'Parisienne' !important;
-    margin-bottom: 20px !important;
-    font-size: 35px !important;
-    position: relative;
-}
-
-h3
-{
-    color: #2b3a51 !important;
-    font-family: 'Parisienne' !important;
-    margin-bottom: 20px !important;
-    font-size: 32px !important;
-    position: relative;
-}
 
 /*-------------------------------------------------------*/
