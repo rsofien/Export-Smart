@@ -22,5 +22,24 @@ p
     margin-bottom: 0;
 }
 
+/* Custom scrollbar styles */
+::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #222;
+}
+
+::-webkit-scrollbar-track
+{
+    border-radius: 10px;
+    background: #dadada;
+}
+
+::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    background: #949494;
+}
+
 
 /*-------------------------------------------------------*/
