@@ -14,14 +14,12 @@ Version: 1.0
 body
 {
     line-height: 1.5 !important;
-    text-align: justify;
 }
 
 p
 {
     padding-bottom: 0;
     margin-bottom: 0;
-    text-align: justify;
 }
 
 
